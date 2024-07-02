@@ -1,7 +1,7 @@
 -- vim options
 
-vim.g.mapleader = ' '
-vim.wo.number = true
+vim.g.mapleader = ' ' -- setting leader key to space
+vim.wo.number = true  -- show line number in file/buffer
 
 vim.cmd("set expandtab")
 vim.cmd("set tabstop=2")
