@@ -21,6 +21,7 @@ return {
 		require("ufo").setup()
 
 		-- Using ufo provider need remap `zR` and `zM`. If Neovim is 0.6.1, remap yourself
+    -- `za` to toggle folds
 		vim.keymap.set("n", "<leader>zo", require("ufo").openAllFolds)
 		vim.keymap.set("n", "<leader>zc", require("ufo").closeAllFolds)
 	end,
