@@ -1,4 +1,5 @@
 -- https://github.com/hrsh7th/nvim-cmp
+-- auto-completion
 return {
 	{
     "hrsh7th/cmp-nvim-lsp",
