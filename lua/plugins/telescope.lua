@@ -1,6 +1,7 @@
 return {
   {
     -- https://github.com/nvim-telescope/telescope.nvim
+    -- needs ripgrep and fd (brew install fd ripgrep)
     'nvim-telescope/telescope.nvim', tag = '0.1.6',
     dependencies = { 'nvim-lua/plenary.nvim' },
   config = function ()
